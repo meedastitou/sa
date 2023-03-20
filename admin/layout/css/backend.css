@@ -1,0 +1,355 @@
+/* Start Main Rulez */
+
+body {
+    background-color: #ececec96;
+    font-size: 16px;
+}
+
+.asterisk {
+    font-size: 24px;
+    position: absolute;
+    right: 27px;
+    top: 4px;
+    color: #f14134;
+}
+
+
+/* End Main Rulez */
+
+
+/* Start Login Form */
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login h4 {
+    color: #888;
+}
+
+.login input {
+    margin-bottom: 10px;
+}
+
+.login .firm-control {
+    background-color: #EAEAEA;
+}
+
+.login .btn {
+    background-color: #008dde;
+}
+
+
+/* End Login Form */
+
+
+/* Star Navbar bootstrap Edits */
+
+.form-control {
+    position: relative;
+}
+
+
+/* Rns Edits Navbar Bootstrap */
+
+
+/* Start Dashboard Page*/
+
+.home-stats .stat {
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat i {
+    position: absolute;
+    font-size: 80px;
+    top: 40px;
+    left: 30px;
+}
+
+.home-stats .stat .info {
+    float: right;
+}
+
+.home-stats .stat a {
+    color: #FFF;
+}
+
+.home-stats .stat a:hover {
+    text-decoration: none;
+}
+
+.home-stats .stat span {
+    display: block;
+    font-size: 60px;
+}
+
+.home-stats .st-members {
+    background-color: #3498db;
+}
+
+.home-stats .st-pending {
+    background-color: #34495e;
+}
+
+.home-stats .st-items {
+    background-color: #e67e22;
+}
+
+.home-stats .st-comments {
+    background-color: #1abc9c;
+}
+
+.latest {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.panel {
+    border: 1px solid #e0dfdf;
+    overflow: hidden;
+}
+
+.panel .panel-heading {
+    border-bottom: 1px inset #e0dfdf;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.panel .panel-heading .toggle-info {
+    color: #999;
+    cursor: pointer;
+}
+
+.panel .panel-heading .toggle-info:hover {
+    color: #444;
+}
+
+.panel .panel-body {
+    background-color: #FFFFFF;
+}
+
+.list-unstyled {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.latest-users {
+    margin-bottom: 0;
+}
+
+.latest-users li {
+    padding: 6px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.latest-users li:nth-child(odd) {
+    background-color: #e8e7e7;
+}
+
+.latest-users .btn-success {
+    padding: 2px 8px;
+}
+
+a.btn.btn-info.pull-right.activate {
+    padding: 2px 2px;
+    margin-right: 3px;
+}
+
+.latest .comment-box {
+    margin: 5px 10px;
+}
+
+.latest .comment-box .member-n,
+.latest .comment-box .member-c {
+    float: left;
+}
+
+.latest .comment-box .member-n {
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.latest .comment-box .member-c {
+    width: calc(100% - 100px);
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+
+/* End Dashboard Page */
+
+
+/* Star Members Edit */
+
+h1 {
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass {
+    position: absolute;
+    top: 12px;
+    right: -10px;
+}
+
+.main-table {
+    -webkit-box-shadow: 0 3px 11px #CCC;
+    -moz-box-shadow: 0 3px 11px #CCC;
+    box-shadow: 0 3px 11px #CCC;
+}
+
+.main-table td {
+    background-color: #FFF;
+    vertical-align: middle;
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #FFF;
+}
+
+.main-table .btn {
+    padding: 2px 10px;
+}
+
+.activate {
+    margin-left: 5px;
+}
+
+
+/* End Members Edit */
+
+
+/* Start Categories Page */
+
+.categories hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.categories .ordering,
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+.categories .ordering a:hover {
+    text-decoration: none;
+    color: #888;
+    font-weight: bold;
+}
+
+.categories .ordering .active {
+    color: #F00;
+    font-weight: bold;
+}
+
+.categories .cat {
+    padding-left: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.categories .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: -150px;
+}
+
+.categories .cat:hover {
+    background-color: #EEE;
+}
+
+.categories .cat:hover .hidden-buttons {
+    right: 10px;
+}
+
+.categories .cat a {
+    margin-right: 5px;
+    padding: 0px 7px;
+}
+
+.categories .cat h4 {
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #6a6a6a;
+}
+
+.categories .cat .full-view p {
+    margin: 8px 0 1px;
+    color: #707070;
+}
+
+.categories .cat:last-of-type~hr {
+    display: none;
+}
+
+.categories .cat .visibility {
+    background-color: #EA2027;
+    color: #FFFFFF;
+    padding: 0px 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+.categories .cat .commenting {
+    background-color: #2f3542;
+    color: #FFFFFF;
+    padding: 0px 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.categories .cat .advertises {
+    background-color: #EE5A24;
+    color: #FFFFFF;
+    padding: 0px 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.categories .add-category {
+    margin: 6px 0 30px;
+}
+
+
+/* End Categories Page */
+
+
+/* Start Items Page */
+
+.desc_item {
+    width: 174px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 174px;
+}
+
+.name_item {
+    width: 174px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 174px;
+}
+
+
+/* End Items Page  */
